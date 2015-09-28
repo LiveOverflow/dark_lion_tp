@@ -1,0 +1,9 @@
+#menu {
+	position: absolute;
+	z-index: 999;
+}
+
+.menu_item {
+	float: left;
+	margin: 2px 10px;
+}
