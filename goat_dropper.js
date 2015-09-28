@@ -14,7 +14,8 @@ document.body.appendChild(menu);
 
 for(var i=0; i<5; i++) {
 	var menu_item = document.createElement("div");
-	menu_item.class = "menu_item";
+	menu_item.className = "menu_item";
+	menu_item.innerText = "menu_item"
 	console.log("add menu item");
-	document.body.appendChild(menu_item);
+	menu.appendChild(menu_item);
 }
