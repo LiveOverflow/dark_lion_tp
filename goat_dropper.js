@@ -12,10 +12,35 @@ var menu = document.createElement("div");
 menu.id = "menu";
 document.body.appendChild(menu);
 
-for(var i=0; i<5; i++) {
-	var menu_item = document.createElement("div");
-	menu_item.className = "menu_item";
-	menu_item.innerText = "menu_item"
-	console.log("add menu item");
-	menu.appendChild(menu_item);
-}
+var menu_item = document.createElement("button");
+menu_item.className = "btn mouseout menu_item";
+menu_item.innerText = "Search Items";
+console.log("add menu item");
+menu.appendChild(menu_item);
+
+var menu_item = document.createElement("button");
+menu_item.className = "btn mouseout menu_item";
+menu_item.innerText = "List Sigils/Runes";
+console.log("add menu item");
+menu.appendChild(menu_item);
+
+var menu_item = document.createElement("button");
+menu_item.className = "btn mouseout menu_item";
+menu_item.innerText = "Share gw2efficiency Link";
+console.log("add menu item");
+menu.appendChild(menu_item);
+
+var menu_item = document.createElement("button");
+menu_item.className = "btn mouseout menu_item";
+menu_item.innerText = "TP Calc";
+console.log("add menu item");
+menu.appendChild(menu_item);
+
+var menu_item = document.createElement("button");
+menu_item.className = "btn mouseout menu_item";
+menu_item.innerText = "Test";
+console.log("add menu item");
+menu.appendChild(menu_item);
+
+
+// <button class="btn mouseout">Sell My Items</button>
